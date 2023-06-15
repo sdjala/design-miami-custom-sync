@@ -72,21 +72,25 @@ const createOrUpdateProducts = async (transaction, products) =>  {
     const productId = extractIdFromGid(product.id);
     return `drafts.${getDocumentProductId(productId)}`;
   });
+  console.log("🚀 ~ file: sync-products.js:75 ~ draftDocumentIds ~ draftDocumentIds:", draftDocumentIds)
 
   // Determine if drafts exist for any updated products
   const existingDrafts = await sanityClient.fetch(`*[_id in $ids]._id`, {
     ids: draftDocumentIds,
   });
+  console.log("🚀 ~ file: sync-products.js:80 ~ createOrUpdateProducts ~ existingDrafts:", existingDrafts)
 
   products.forEach((product) => {
     // Build Sanity product document
     const document = buildProductDocument(product);
+    console.log("🚀 ~ file: sync-products.js:86 ~ products.forEach ~ document:", document)
     const draftId = `drafts.${document._id}`;
 
     // Create (or update) existing published document
     transaction
       .createIfNotExists(document)
       .patch(document._id, (patch) => patch.set(document));
+    console.log("🚀 ~ file: sync-products.js:93 ~ products.forEach ~ transaction:", transaction)
 
     // Check if this product has a corresponding draft and if so, update that too.
     if (existingDrafts.includes(draftId)) {
