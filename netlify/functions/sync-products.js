@@ -38,6 +38,7 @@ export const handler = async (event, context) => {
 
   try {
     const transaction = sanityClient.transaction();
+    console.log("🚀 ~ file: sync-products.js:41 ~ handler ~ transaction:", transaction)
     switch (body.action) {
       case "create":
       case "update":
