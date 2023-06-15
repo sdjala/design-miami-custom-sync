@@ -11,10 +11,10 @@ const SHOPIFY_PRODUCT_DOCUMENT_ID_PREFIX = "product-";
 // handler to be able to create documents on your behalf.
 // Read more on auth, tokens and securing them: https://www.sanity.io/docs/http-auth
 const sanityClient = createClient({
-  apiVersion: env.SANITY_API_VERSION,
-  dataset: env.SANITY_DATASET,
-  projectId: env.SANITY_PROJECT_ID,
-  token: env.SANITY_ADMIN_AUTH_TOKEN,
+  apiVersion: process.env.SANITY_API_VERSION,
+  dataset: process.env.SANITY_DATASET,
+  projectId: process.env.SANITY_PROJECT_ID,
+  token: process.env.SANITY_ADMIN_AUTH_TOKEN,
   useCdn: false,
 });
 
