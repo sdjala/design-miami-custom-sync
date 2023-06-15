@@ -40,7 +40,6 @@ export const handler = async (event, context) => {
 
   try {
     const transaction = sanityClient.transaction();
-    console.log("🚀 ~ file: sync-products.js:44 ~ handler ~ parsedData.action:", parsedData.action)
     switch (parsedData.action) {
       case "create":
       case "update":
@@ -86,7 +85,7 @@ const createOrUpdateProducts = async (transaction, products) =>  {
     const draftId = `drafts.${document._id}`;
 
     // Create (or update) existing published document
-    transaction
+    const t = transaction
       .createIfNotExists(document)
       .patch(document._id, (patch) => patch.set(document));
 
@@ -116,7 +115,6 @@ const deleteProducts = async (transaction, documentIds) => {
  * Build Sanity document from product payload
  */
 const buildProductDocument = (product) => {
-  console.log("🚀 ~ file: sync-products.js:118 ~ buildProductDocument ~ product:", product)
   const {
     featuredImage,
     id,
@@ -126,9 +124,7 @@ const buildProductDocument = (product) => {
     status,
     title,
     variants,
-    metafields
   } = product;
-    console.log("🚀 ~ file: sync-products.js:129 ~ buildProductDocument ~ metafields:", metafields)
   const productId = extractIdFromGid(id);
   return {
     _id: getDocumentProductId(productId),
