@@ -30,23 +30,24 @@ export const handler = async (event, context) => {
   // Next.js will automatically parse `req.body` with requests of `content-type: application/json`,
   // so manually parsing with `JSON.parse` is unnecessary.
   const { body, httpMethod } = event;
-  console.log("🚀 ~ file: sync-products.js:33 ~ handler ~ body:", body)
 
   // Ignore non-POST requests
   if (httpMethod !== "POST") {
     return {statusCode: 405, body: "Method not allowed" };
   }
 
+  const parsedData = JSON.parse(body)
+
   try {
     const transaction = sanityClient.transaction();
-    switch (body.action) {
+    switch (parsedData.action) {
       case "create":
       case "update":
       case "sync":
-        await createOrUpdateProducts(transaction, body.products);
+        await createOrUpdateProducts(transaction, parsedData.products);
         break;
       case "delete":
-        const documentIds = body.productIds.map((id) =>
+        const documentIds = parsedData.productIds.map((id) =>
           getDocumentProductId(id)
         );
         await deleteProducts(transaction, documentIds);
@@ -67,31 +68,26 @@ export const handler = async (event, context) => {
  * All products will be created with a deterministic _id in the format `product-${SHOPIFY_ID}`
  */
 const createOrUpdateProducts = async (transaction, products) =>  {
-  console.log("🚀 ~ file: sync-products.js:70 ~ createOrUpdateProducts ~ transaction:", transaction)
   // Extract draft document IDs from current update
   const draftDocumentIds = products.map((product) => {
     const productId = extractIdFromGid(product.id);
     return `drafts.${getDocumentProductId(productId)}`;
   });
-  console.log("🚀 ~ file: sync-products.js:75 ~ draftDocumentIds ~ draftDocumentIds:", draftDocumentIds)
 
   // Determine if drafts exist for any updated products
   const existingDrafts = await sanityClient.fetch(`*[_id in $ids]._id`, {
     ids: draftDocumentIds,
   });
-  console.log("🚀 ~ file: sync-products.js:80 ~ createOrUpdateProducts ~ existingDrafts:", existingDrafts)
 
   products.forEach((product) => {
     // Build Sanity product document
     const document = buildProductDocument(product);
-    console.log("🚀 ~ file: sync-products.js:86 ~ products.forEach ~ document:", document)
     const draftId = `drafts.${document._id}`;
 
     // Create (or update) existing published document
     transaction
       .createIfNotExists(document)
       .patch(document._id, (patch) => patch.set(document));
-    console.log("🚀 ~ file: sync-products.js:93 ~ products.forEach ~ transaction:", transaction)
 
     // Check if this product has a corresponding draft and if so, update that too.
     if (existingDrafts.includes(draftId)) {
