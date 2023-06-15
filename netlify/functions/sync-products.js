@@ -67,6 +67,7 @@ export const handler = async (event, context) => {
  * All products will be created with a deterministic _id in the format `product-${SHOPIFY_ID}`
  */
 const createOrUpdateProducts = async (transaction, products) =>  {
+  console.log("🚀 ~ file: sync-products.js:70 ~ createOrUpdateProducts ~ transaction:", transaction)
   // Extract draft document IDs from current update
   const draftDocumentIds = products.map((product) => {
     const productId = extractIdFromGid(product.id);
