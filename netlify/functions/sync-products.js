@@ -25,15 +25,15 @@ const sanityClient = createClient({
  * 
  * Remember that this may be run in batches when manually syncing.
  */
-export const handler = async (req, res) => {
+export const handler = async (event, context) => {
   
   // Next.js will automatically parse `req.body` with requests of `content-type: application/json`,
   // so manually parsing with `JSON.parse` is unnecessary.
-  const { body, method } = req;
+  const { body, httpMethod } = event;
 
   // Ignore non-POST requests
-  if (method !== "POST") {
-    return res.status(405).json({ error: "Method not allowed" });
+  if (httpMethod !== "POST") {
+    return {statusCode: 405, body: "Method not allowed" };
   }
 
   try {
@@ -56,7 +56,7 @@ export const handler = async (req, res) => {
     console.error("Transaction failed: ", err.message);
   }
 
-  res.status(200).json({ message: "OK" });
+  return {statusCode: 200, body: "OK" };
 }
 
 /**
