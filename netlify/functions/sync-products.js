@@ -30,6 +30,7 @@ export const handler = async (event, context) => {
   // Next.js will automatically parse `req.body` with requests of `content-type: application/json`,
   // so manually parsing with `JSON.parse` is unnecessary.
   const { body, httpMethod } = event;
+  console.log("🚀 ~ file: sync-products.js:33 ~ handler ~ body:", body)
 
   // Ignore non-POST requests
   if (httpMethod !== "POST") {
@@ -37,9 +38,7 @@ export const handler = async (event, context) => {
   }
 
   try {
-    console.log("🚀 ~ file: sync-products.js:41 ~ handler ~ sanityClient:", sanityClient)
     const transaction = sanityClient.transaction();
-    console.log("🚀 ~ file: sync-products.js:41 ~ handler ~ transaction:", transaction)
     switch (body.action) {
       case "create":
       case "update":
