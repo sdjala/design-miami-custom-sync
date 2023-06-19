@@ -37,6 +37,7 @@ export const handler = async (event, context) => {
   }
 
   const parsedData = JSON.parse(body)
+  console.log("🚀 ~ file: sync-products.js:40 ~ handler ~ parsedData:", parsedData)
 
   try {
     const transaction = sanityClient.transaction();
@@ -82,6 +83,7 @@ const createOrUpdateProducts = async (transaction, products) =>  {
   products.forEach((product) => {
     // Build Sanity product document
     const document = buildProductDocument(product);
+    console.log("🚀 ~ file: sync-products.js:85 ~ products.forEach ~ document:", document)
     const draftId = `drafts.${document._id}`;
 
     // Create (or update) existing published document
