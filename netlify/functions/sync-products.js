@@ -11,6 +11,7 @@ export const handler = async (req, res) => {
   // Next.js will automatically parse `req.body` with requests of `content-type: application/json`,
   // so manually parsing with `JSON.parse` is unnecessary.
   const { body, httpMethod } = req;
+  console.log("🚀 ~ file: sync-products.js:14 ~ handler ~ body:", body)
   const parsedData = JSON.parse(body)
   // Ignore non-POST requests
   if (httpMethod !== "POST") {
