@@ -36,6 +36,7 @@ export const handler = async (event, context) => {
     return {statusCode: 405, body: "Method not allowed" };
   }
 
+  console.log("🚀 ~ file: sync-products.js:40 ~ handler ~ body:", body)
   const parsedData = JSON.parse(body)
   console.log("🚀 ~ file: sync-products.js:40 ~ handler ~ parsedData:", parsedData)
 
