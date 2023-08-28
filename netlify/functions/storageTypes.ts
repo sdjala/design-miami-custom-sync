@@ -78,6 +78,15 @@ export type ShopifyDocumentProduct = {
     createdAt: string
     isDeleted: boolean
     variants?: {_key: string; _type: string; _ref: string; _weak: boolean}[]
+    metafields?: [{
+      _key: string
+      id: number
+      type: string
+      key: string
+      value: number
+      description?: string | null
+      namespace: string
+    }]
     options: {
       _type: string
       _key: string

@@ -41,14 +41,14 @@ export async function handleProductUpdate(
         id: variantId,
         gid: `gid://shopify/ProductVariant/${variant.id}`,
         isDeleted: false,
-        option1: variant.selectedOptions[0]?.value,
-        option2: variant.selectedOptions[1]?.value,
-        option3: variant.selectedOptions[2]?.value,
+        option1: variant.selectedOptions?.[0]?.value,
+        option2: variant.selectedOptions?.[1]?.value,
+        option3: variant.selectedOptions?.[2]?.value,
         previewImageUrl: variant.image?.src,
         price: Number(variant.price),
         compareAtPrice: variant.compareAtPrice ?? 0,
-        productGid: variant.product.id,
-        productId: idFromGid(variant.product.id),
+        productGid: variant.product?.id,
+        productId: idFromGid(variant.product?.id),
         sku: variant.sku,
         status,
         updatedAt: variant.updatedAt,
@@ -68,6 +68,17 @@ export async function handleProductUpdate(
       _key: option.id,
       name: option.name,
       values: option.values ?? [],
+    })) || []
+
+  const metafields: ShopifyDocumentProduct['store']['metafields'] =
+    product.metafields?.map((metafield) => ({
+      _type: 'metafield',
+      _key: metafield.id,
+      key: metafield.key,
+      value: metafield.value,
+      description: metafield.description,
+      type: metafield.type,
+      namespace: metafield.namespace,
     })) || []
 
   // We assign _key values of product option name and values since they're guaranteed unique in Shopify
@@ -90,6 +101,7 @@ export async function handleProductUpdate(
         current: handle,
       },
       options,
+      metafields: metafields,
       variants: productVariantsDocuments.map((variant) => {
         return {
           _key: uuidv5(variant._id, UUID_NAMESPACE_PRODUCT_VARIANT),
