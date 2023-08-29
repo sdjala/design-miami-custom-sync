@@ -11,6 +11,7 @@ import {
 } from './constants'
 import {DataSinkProduct} from './requestTypes'
 import {idFromGid} from './requestHelpers'
+import axios from 'axios'
 
 export async function handleProductUpdate(
   client: SanityClient,
@@ -26,10 +27,12 @@ export async function handleProductUpdate(
     status,
     priceRange
   } = product
+    console.log("🚀 ~ file: productUpdate.ts:30 ~ id:", id)
 
   const variants = product.variants || []
   const firstImage = images?.[0]
   const shopifyProductId = idFromGid(id)
+  console.log("🚀 ~ file: productUpdate.ts:35 ~ shopifyProductId:", shopifyProductId)
 
   const productVariantsDocuments = variants.map<ShopifyDocumentProductVariant>((variant) => {
     const variantId = idFromGid(variant.id)
@@ -70,16 +73,28 @@ export async function handleProductUpdate(
       values: option.values ?? [],
     })) || []
 
+
+  const getMetafields = async () => {
+     const res = await axios.get(`https://design-miami.myshopify.com/admin/api/2023-04/products/${shopifyProductId}/metafields.json`, {
+      headers:{
+        'X-Shopify-Access-Token':  process.env.SHOPIFY_TOKEN
+      }
+    })
+     return res.data.metafields
+     
+  }
+  const data = await getMetafields()
+
   const metafields: ShopifyDocumentProduct['store']['metafields'] =
-    product.metafields?.map((metafield) => ({
-      _type: 'metafield',
-      _key: metafield.id,
-      key: metafield.key,
-      value: metafield.value,
-      description: metafield.description,
-      type: metafield.type,
-      namespace: metafield.namespace,
-    })) || []
+  data?.map((metafield) => ({
+    _type: 'metafield',
+    _key: metafield.id,
+    key: metafield.key,
+    value: metafield.value,
+    description: metafield.description,
+    type: metafield.type,
+    namespace: metafield.namespace,
+  })) || []
 
   // We assign _key values of product option name and values since they're guaranteed unique in Shopify
   const productDocument: ShopifyDocumentProduct = {
