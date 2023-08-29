@@ -27,12 +27,10 @@ export async function handleProductUpdate(
     status,
     priceRange
   } = product
-    console.log("🚀 ~ file: productUpdate.ts:30 ~ id:", id)
 
   const variants = product.variants || []
   const firstImage = images?.[0]
   const shopifyProductId = idFromGid(id)
-  console.log("🚀 ~ file: productUpdate.ts:35 ~ shopifyProductId:", shopifyProductId)
 
   const productVariantsDocuments = variants.map<ShopifyDocumentProductVariant>((variant) => {
     const variantId = idFromGid(variant.id)
@@ -65,6 +63,30 @@ export async function handleProductUpdate(
     })
   })
 
+  productVariantsDocuments.map(async(variant) => {
+      const res = await axios.get(`https://design-miami.myshopify.com/admin/api/2023-04/products/${shopifyProductId}/variants/${variant?.store?.id}/metafields.json`, {
+      headers:{
+        'X-Shopify-Access-Token':  process.env.SHOPIFY_TOKEN
+      }
+    })
+
+     const metafields = res.data.metafields?.map((metafield) => {
+      if (metafield.key==='color') {
+        variant.store[metafield?.key] = JSON.parse(metafield?.value)
+      }
+      return {
+        _type: 'metafield',
+        _key: metafield.id,
+        key: metafield.key,
+        value: metafield.value,
+        description: metafield.description,
+        type: metafield.type,
+        namespace: metafield.namespace,
+      }
+    })
+    variant.store.metafields =  metafields
+  })
+
   const options: ShopifyDocumentProduct['store']['options'] =
     product.options.map((option) => ({
       _type: 'option',
@@ -85,16 +107,7 @@ export async function handleProductUpdate(
   }
   const data = await getMetafields()
 
-  const metafields: ShopifyDocumentProduct['store']['metafields'] =
-  data?.map((metafield) => ({
-    _type: 'metafield',
-    _key: metafield.id,
-    key: metafield.key,
-    value: metafield.value,
-    description: metafield.description,
-    type: metafield.type,
-    namespace: metafield.namespace,
-  })) || []
+ 
 
   // We assign _key values of product option name and values since they're guaranteed unique in Shopify
   const productDocument: ShopifyDocumentProduct = {
@@ -116,7 +129,7 @@ export async function handleProductUpdate(
         current: handle,
       },
       options,
-      metafields: metafields,
+      
       variants: productVariantsDocuments.map((variant) => {
         return {
           _key: uuidv5(variant._id, UUID_NAMESPACE_PRODUCT_VARIANT),
@@ -127,6 +140,24 @@ export async function handleProductUpdate(
       }),
     },
   }
+
+  const metafields: ShopifyDocumentProduct['store']['metafields'] =
+  data?.map((metafield) => {
+    if (['heritage', 'material', 'style', 'color'].includes(metafield.key)) {
+      productDocument.store[metafield.key] = JSON.parse(metafield.value)
+    }
+    return {
+      _type: 'metafield',
+      _key: metafield.id,
+      key: metafield.key,
+      value: metafield.value,
+      description: metafield.description,
+      type: metafield.type,
+      namespace: metafield.namespace,
+    }
+  }) || []
+
+  productDocument.store.metafields= metafields,
 
   await commitProductDocuments(client, productDocument, productVariantsDocuments)
 

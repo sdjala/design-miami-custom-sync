@@ -1,0 +1,1101 @@
+{
+    "action": "sync",
+    "products": [
+        {
+            "id": "gid://shopify/Product/5058065825923",
+            "title": "Untitled",
+            "handle": "adam-silverman-untitled",
+            "description": "Known for his sculptural vessels and richly textured glazes, Adam Silverman is among the most dynamic practitioners dedicated to ceramics today. Silverman brings in a sense of structure to his objects and utilizes painterly glaze on his works. Silverman was born in 1963 in New York, NY and received a Bachelor of Fine Art and a Bachelor of Architecture from the Rhode Island School of Design in 1987 and 1988. He served as the Los Angeles studio director of Heath Ceramics from January 2009 to May 2014.",
+            "descriptionHtml": "<p>Known for his sculptural vessels and richly textured glazes, Adam Silverman is among the most dynamic practitioners dedicated to ceramics today. Silverman brings in a sense of structure to his objects and utilizes painterly glaze on his works.</p>\n\n<p>Silverman was born in 1963 in New York, NY and received a Bachelor of Fine Art and a Bachelor of Architecture from the Rhode Island School of Design in 1987 and 1988. He served as the Los Angeles studio director of Heath Ceramics from January 2009 to May 2014.</p>",
+            "productType": "",
+            "featuredImage": {
+                "id": "gid://shopify/ProductImage/28049751670915",
+                "width": 1920,
+                "height": 1440,
+                "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman_Benda_Silverman_Untitled_1_-_Chelsey_Cohen_1.jpg?v=1618860567"
+            },
+            "status": "active",
+            "images": [
+                {
+                    "id": "gid://shopify/ProductImage/28049751670915",
+                    "height": 1440,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman_Benda_Silverman_Untitled_1_-_Chelsey_Cohen_1.jpg?v=1618860567"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28049757274243",
+                    "height": 1440,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Silverman_Untitled_2-ChelseyCohen_1.jpg?v=1618860884"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28049757241475",
+                    "height": 1440,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Silverman_Untitled_3-ChelseyCohen_1.jpg?v=1618860884"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28049757208707",
+                    "height": 1440,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Silverman_Untitled_4-ChelseyCohen_1.jpg?v=1618860884"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489683193987",
+                    "height": 2560,
+                    "width": 2560,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/as_22-23-jpg.jpg?v=1692970118"
+                }
+            ],
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/6481136124035",
+                    "position": 1,
+                    "name": "Title",
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ],
+            "priceRange": {},
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/33911756652675",
+                    "barcode": null,
+                    "inventoryManagement": "SHOPIFY",
+                    "inventoryPolicy": "DENY",
+                    "inventoryQuantity": 1,
+                    "position": 1,
+                    "price": "0.00",
+                    "product": {
+                        "id": "gid://shopify/Product/5058065825923",
+                        "status": "active"
+                    },
+                    "selectedOptions": [
+                        {
+                            "name": "Title",
+                            "value": "Default Title"
+                        }
+                    ],
+                    "requiresShipping": true,
+                    "fulfillmentService": "manual",
+                    "sku": null,
+                    "taxable": true,
+                    "title": "Default Title",
+                    "weight": 0,
+                    "weightUnit": "KILOGRAMS",
+                    "createdAt": "2020-06-06T21:11:49Z",
+                    "updatedAt": "2023-08-25T13:28:36Z"
+                }
+            ],
+            "tags": [
+                "Adam Silverman",
+                "blue",
+                "Ceramics",
+                "city-New York",
+                "Contemporary",
+                "Friedman Benda",
+                "green",
+                "Shop-page",
+                "Stoneware",
+                "white"
+            ],
+            "vendor": "Friedman Benda",
+            "updatedAt": "2023-08-28T11:30:53Z",
+            "createdAt": "2020-06-06T21:11:49Z",
+            "publishedAt": null
+        },
+        {
+            "id": "gid://shopify/Product/5169239130243",
+            "title": "Untitled",
+            "handle": "adam-silverman-untitled-2",
+            "description": "Known for his sculptural vessels and richly textured glazes, Adam Silverman is among the most dynamic practitioners dedicated to ceramics today. Silverman brings in a sense of structure to his objects and utilizes painterly glaze on his works. Silverman was born in 1963 in New York, NY and received a Bachelor of Fine Art and a Bachelor of Architecture from the Rhode Island School of Design in 1987 and 1988. He served as the Los Angeles studio director of Heath Ceramics from January 2009 to May 2014.",
+            "descriptionHtml": "<p>Known for his sculptural vessels and richly textured glazes, Adam Silverman is among the most dynamic practitioners dedicated to ceramics today. Silverman brings in a sense of structure to his objects and utilizes painterly glaze on his works.</p>\n\n<p>Silverman was born in 1963 in New York, NY and received a Bachelor of Fine Art and a Bachelor of Architecture from the Rhode Island School of Design in 1987 and 1988. He served as the Los Angeles studio director of Heath Ceramics from January 2009 to May 2014.</p>",
+            "productType": "",
+            "featuredImage": {
+                "id": "gid://shopify/ProductImage/16693641248899",
+                "width": 1920,
+                "height": 1544,
+                "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman-Benda_Adam-Silverman_Untitled-as_329---Alice-Higgins.jpg?v=1606863413"
+            },
+            "status": "active",
+            "images": [
+                {
+                    "id": "gid://shopify/ProductImage/16693641248899",
+                    "height": 1544,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman-Benda_Adam-Silverman_Untitled-as_329---Alice-Higgins.jpg?v=1606863413"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489683030147",
+                    "height": 1920,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/as_22-25-jpg.jpg?v=1692970113"
+                }
+            ],
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/6613650047107",
+                    "position": 1,
+                    "name": "Title",
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ],
+            "priceRange": {},
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/34260917846147",
+                    "barcode": null,
+                    "inventoryManagement": "SHOPIFY",
+                    "inventoryPolicy": "DENY",
+                    "inventoryQuantity": 1,
+                    "position": 1,
+                    "price": "0.00",
+                    "product": {
+                        "id": "gid://shopify/Product/5169239130243",
+                        "status": "active"
+                    },
+                    "selectedOptions": [
+                        {
+                            "name": "Title",
+                            "value": "Default Title"
+                        }
+                    ],
+                    "requiresShipping": true,
+                    "fulfillmentService": "manual",
+                    "sku": null,
+                    "taxable": true,
+                    "title": "Default Title",
+                    "weight": 197.3,
+                    "weightUnit": "KILOGRAMS",
+                    "createdAt": "2020-12-01T22:56:53Z",
+                    "updatedAt": "2023-08-25T13:28:31Z"
+                }
+            ],
+            "tags": [
+                "Adam Silverman",
+                "Ceramics",
+                "city-New York",
+                "Friedman Benda",
+                "Shop-page"
+            ],
+            "vendor": "Friedman Benda",
+            "updatedAt": "2023-08-25T13:28:33Z",
+            "createdAt": "2020-12-01T22:56:53Z",
+            "publishedAt": null
+        },
+        {
+            "id": "gid://shopify/Product/6558115987587",
+            "title": "Georges Jouve Pot",
+            "handle": "georges-jouve-pot",
+            "description": "Black and White glazed ceramic pot. underside signed with cipher DESIGNER/ Georges Jouve DATE/ c. 1955 MATERIALS/ ceramic DIMENSIONS/ D 15 x H 20 cm STYLE/ Historic HERITAGE/ France SHIPS FROM/ France",
+            "descriptionHtml": "<div class=\"content-after-slider\">\n<p class=\"product_about\">\nBlack and White glazed ceramic pot. underside signed with cipher\n</p>\n</div>\n<br>\n<div class=\"content-before-price\">\n<h6 class=\"subtitle_description\">DESIGNER/</h6>\n<p class=\"subcontent_description\">Georges Jouve</p>\n<h6 class=\"subtitle_description\">DATE/</h6>\n<p class=\"subcontent_description\">c. 1955</p>\n<h6 class=\"subtitle_description\">MATERIALS/</h6>\n<p class=\"subcontent_description\">ceramic</p>\n<h6 class=\"subtitle_description\">DIMENSIONS/</h6>\n<p class=\"subcontent_description\">D 15 x H 20 cm</p>\n<h6 class=\"subtitle_description\">STYLE/</h6>\n<p class=\"subcontent_description\">Historic</p>\n<h6 class=\"subtitle_description\">HERITAGE/</h6>\n<p class=\"subcontent_description\">France</p>\n<h6 class=\"subtitle_description\">SHIPS FROM/</h6>\n<p class=\"subcontent_description\">France</p>\n</div>",
+            "productType": "Ceramics",
+            "featuredImage": {
+                "id": "gid://shopify/ProductImage/28035800137859",
+                "width": 1920,
+                "height": 1920,
+                "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Lebreton_Jouve_pot_1_-_alain_lebreton.jpg?v=1618254329"
+            },
+            "status": "active",
+            "images": [
+                {
+                    "id": "gid://shopify/ProductImage/28035800137859",
+                    "height": 1920,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Lebreton_Jouve_pot_1_-_alain_lebreton.jpg?v=1618254329"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28035806298243",
+                    "height": 1920,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Lebreton_Jouve_pot_2-alainlebreton.jpg?v=1618254959"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28035806265475",
+                    "height": 1920,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Lebreton_Jouve_pot_3-alainlebreton.jpg?v=1618254959"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28035806232707",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Lebreton_Jouve_pot_4-alainlebreton.jpg?v=1618254958"
+                }
+            ],
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/8435923124355",
+                    "position": 1,
+                    "name": "Title",
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ],
+            "priceRange": {
+                "minVariantPrice": 7500,
+                "maxVariantPrice": 7500
+            },
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/39317925789827",
+                    "barcode": "707476261",
+                    "inventoryManagement": "NOT_MANAGED",
+                    "inventoryPolicy": "DENY",
+                    "inventoryQuantity": 0,
+                    "position": 1,
+                    "price": "7500.00",
+                    "product": {
+                        "id": "gid://shopify/Product/6558115987587",
+                        "status": "active"
+                    },
+                    "selectedOptions": [
+                        {
+                            "name": "Title",
+                            "value": "Default Title"
+                        }
+                    ],
+                    "requiresShipping": true,
+                    "fulfillmentService": "manual",
+                    "sku": "",
+                    "taxable": false,
+                    "title": "Default Title",
+                    "weight": 0,
+                    "weightUnit": "POUNDS",
+                    "createdAt": "2021-04-12T19:05:29Z",
+                    "updatedAt": "2023-06-15T10:34:19Z"
+                }
+            ],
+            "tags": [
+                "ceramic",
+                "Ceramics",
+                "City-San Francisco",
+                "Georges Jouve",
+                "Lebreton",
+                "Shop-page"
+            ],
+            "vendor": "Lebreton",
+            "updatedAt": "2023-08-28T00:39:30Z",
+            "createdAt": "2021-04-12T19:05:29Z",
+            "publishedAt": "2023-06-07T06:41:58Z"
+        },
+        {
+            "id": "gid://shopify/Product/6560905822339",
+            "title": "Let me try again",
+            "handle": "carmen-dapollonio-let-me-try-again",
+            "description": "Investigating the spectrum from abstraction to figuration, Let me try again represents Carmen D’Apollonio’s first major foray into bronze. For D’Apollonio every work is suggestive of an inner landscape to which she imparts its own personality and unique point of view. The result is an evolving cast of characters of her own creation. As D’Apollonio states, “They’re my friends, and they speak to me through their titles.”",
+            "descriptionHtml": "<p>Investigating the spectrum from abstraction to figuration, Let me try again represents Carmen D’Apollonio’s first major foray into bronze. For D’Apollonio every work is suggestive of an inner landscape to which she imparts its own personality and unique point of view. The result is an evolving cast of characters of her own creation. As D’Apollonio states, “They’re my friends, and they speak to me through their titles.”</p>",
+            "productType": "",
+            "featuredImage": {
+                "id": "gid://shopify/ProductImage/28049750360195",
+                "width": 1920,
+                "height": 2880,
+                "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman_Benda_D_Apollonio_Let_me_try_again_1_-_Chelsey_Cohen.jpg?v=1618860560"
+            },
+            "status": "active",
+            "images": [
+                {
+                    "id": "gid://shopify/ProductImage/28049750360195",
+                    "height": 2880,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman_Benda_D_Apollonio_Let_me_try_again_1_-_Chelsey_Cohen.jpg?v=1618860560"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28049754259587",
+                    "height": 2880,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_D_Apollonio_Letmetryagain_2-ChelseyCohen.jpg?v=1618860717"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28049754226819",
+                    "height": 2880,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_D_Apollonio_Letmetryagain_3-ChelseyCohen.jpg?v=1618860717"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28049754292355",
+                    "height": 2880,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_D_Apollonio_Letmetryagain_4-ChelseyCohen.jpg?v=1618860717"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489621819523",
+                    "height": 1920,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Carmen-DApollonio_Let-me-try-again_1-Friedman-Benda.jpg?v=1692967008"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489621786755",
+                    "height": 150,
+                    "width": 100,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Carmen-DApollonio_Let-me-try-again_4-Friedman-Benda-100x150.jpg?v=1692967008"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489621721219",
+                    "height": 150,
+                    "width": 100,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Carmen-DApollonio_Let-me-try-again_3-Friedman-Benda-100x150.jpg?v=1692967007"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489621753987",
+                    "height": 150,
+                    "width": 100,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Carmen-DApollonio_Let-me-try-again_2-Friedman-Benda-100x150.jpg?v=1692967007"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39491970728067",
+                    "height": 1920,
+                    "width": 1280,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Carmen-DApollonio_Let-me-try-again_4-Friedman-Benda.jpg?v=1693221938"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39491970695299",
+                    "height": 1920,
+                    "width": 1280,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Carmen-DApollonio_Let-me-try-again_3-Friedman-Benda.jpg?v=1693221938"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39491970760835",
+                    "height": 1920,
+                    "width": 1280,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Carmen-DApollonio_Let-me-try-again_2-Friedman-Benda.jpg?v=1693221939"
+                }
+            ],
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/8440211144835",
+                    "position": 1,
+                    "name": "Title",
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ],
+            "priceRange": {
+                "minVariantPrice": 32000,
+                "maxVariantPrice": 32000
+            },
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/39324255780995",
+                    "barcode": null,
+                    "inventoryManagement": "SHOPIFY",
+                    "inventoryPolicy": "DENY",
+                    "inventoryQuantity": 0,
+                    "position": 1,
+                    "price": "32000.00",
+                    "product": {
+                        "id": "gid://shopify/Product/6560905822339",
+                        "status": "active"
+                    },
+                    "selectedOptions": [
+                        {
+                            "name": "Title",
+                            "value": "Default Title"
+                        }
+                    ],
+                    "requiresShipping": true,
+                    "fulfillmentService": "manual",
+                    "sku": null,
+                    "taxable": true,
+                    "title": "Default Title",
+                    "weight": 113.4,
+                    "weightUnit": "KILOGRAMS",
+                    "createdAt": "2021-04-19T19:29:20Z",
+                    "updatedAt": "2023-08-25T12:36:44Z"
+                }
+            ],
+            "tags": [
+                "Bronze",
+                "brown",
+                "Carmen D'Apollonio",
+                "city-New York",
+                "Contemporary",
+                "Friedman Benda",
+                "Lamp",
+                "Lighting",
+                "linen",
+                "Shop-page"
+            ],
+            "vendor": "Friedman Benda",
+            "updatedAt": "2023-08-28T11:25:40Z",
+            "createdAt": "2021-04-19T19:29:20Z",
+            "publishedAt": null
+        },
+        {
+            "id": "gid://shopify/Product/6565875384451",
+            "title": "Maquette 234 / Canvas and Foam Sofa, Charcoal",
+            "handle": "faye-toogood-maquette-234-canvas-and-foam-sofa-charcoal",
+            "description": "British designer Faye Toogood has emerged as one of the most prominent figures in contemporary design today. Working in a diverse range of disciplines from sculpture to furniture and fashion, Toogood often reinterprets and reinvents classical tropes and references from art history by introducing a new aesthetic. Assemblage 6, from which Maquette 234 / Canvas and Foam Sofa, Charcoal was born, marked a dramatic rupture in Toogood’s creative trajectory – setting out to ‘unlearn’ the process of design, and build it up again from scratch. Returning to a creative place of child-like wonder and curiosity, Toogood enlisted rudimentary, readily-accessible materials – paper and tape, canvas and foam, to craft unforced and uncontrived, small-scale maquettes of objects with functional potentialities. Transposed to full-scale proportions, every detail of her Canvas and Foam Sofa miniature, down to the minutiae, has been carefully considered and masterfully recreated. Primed.",
+            "descriptionHtml": "<p>British designer Faye Toogood has emerged as one of the most prominent figures in contemporary design today. Working in a diverse range of disciplines from sculpture to furniture and fashion, Toogood often reinterprets and reinvents classical tropes and references from art history by introducing a new aesthetic.</p>\n\n<p>Assemblage 6, from which Maquette 234 / Canvas and Foam Sofa, Charcoal was born, marked a dramatic rupture in Toogood’s creative trajectory – setting out to ‘unlearn’ the process of design, and build it up again from scratch. Returning to a creative place of child-like wonder and curiosity, Toogood enlisted rudimentary, readily-accessible materials – paper and tape, canvas and foam, to craft unforced and uncontrived, small-scale maquettes of objects with functional potentialities. Transposed to full-scale proportions, every detail of her Canvas and Foam Sofa miniature, down to the minutiae, has been carefully considered and masterfully recreated.</p>\n\n<p>Primed.</p>",
+            "productType": "",
+            "featuredImage": {
+                "id": "gid://shopify/ProductImage/28074458939523",
+                "width": 1920,
+                "height": 1280,
+                "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman_Benda_Toogood_Maquette_234_Canvas_Foam_Sofa_Charcoal_1_-_Chelsey_Cohen.jpg?v=1619552162"
+            },
+            "status": "active",
+            "images": [
+                {
+                    "id": "gid://shopify/ProductImage/28074458939523",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman_Benda_Toogood_Maquette_234_Canvas_Foam_Sofa_Charcoal_1_-_Chelsey_Cohen.jpg?v=1619552162"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074469130371",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Toogood_Maquette_234_Canvas_Foam_Sofa_Charcoal_2-ChelseyCohen.jpg?v=1619552444"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074468933763",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Toogood_Maquette_234_Canvas_Foam_Sofa_Charcoal_3-ChelseyCohen.jpg?v=1619552444"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074468900995",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Toogood_Maquette_234_Canvas_Foam_Sofa_Charcoal_4-ChelseyCohen.jpg?v=1619552444"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074469064835",
+                    "height": 2880,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Toogood_Maquette_234_Canvas_Foam_Sofa_Charcoal_5-ChelseyCohen.jpg?v=1619552444"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074469032067",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Toogood_Maquette_234_Canvas_Foam_Sofa_Charcoal_6-ChelseyCohen.jpg?v=1619552444"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074469097603",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Toogood_Maquette_234_Canvas_Foam_Sofa_Charcoal_7-ChelseyCohen.jpg?v=1619552444"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074468966531",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Toogood_Maquette_234_Canvas_Foam_Sofa_Charcoal_8-ChelseyCohen.jpg?v=1619552444"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074468999299",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Toogood_Maquette_234_Canvas_Foam_Sofa_Charcoal_9-ChelseyCohen.jpg?v=1619552444"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489622081667",
+                    "height": 1920,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Toogood_Maquette-234-Canvas-Foam-Sofa-Charcoal_1-Friedman-Benda.jpg?v=1692967019"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489621983363",
+                    "height": 100,
+                    "width": 150,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Toogood_Maquette-234-Canvas-Foam-Sofa-Charcoal_6-Friedman-Benda-150x100.jpg?v=1692967019"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489621885059",
+                    "height": 150,
+                    "width": 100,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Toogood_Maquette-234-Canvas-Foam-Sofa-Charcoal_5-Friedman-Benda-100x150.jpg?v=1692967019"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489621950595",
+                    "height": 100,
+                    "width": 150,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Toogood_Maquette-234-Canvas-Foam-Sofa-Charcoal_4-Friedman-Benda-150x100.jpg?v=1692967019"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489622048899",
+                    "height": 100,
+                    "width": 150,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Toogood_Maquette-234-Canvas-Foam-Sofa-Charcoal_3-Friedman-Benda-150x100.jpg?v=1692967019"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489622016131",
+                    "height": 100,
+                    "width": 150,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Toogood_Maquette-234-Canvas-Foam-Sofa-Charcoal_2-Friedman-Benda-150x100.jpg?v=1692967019"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39491971154051",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Toogood_Maquette-234-Canvas-Foam-Sofa-Charcoal_6-Friedman-Benda.jpg?v=1693221946"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39491971252355",
+                    "height": 1920,
+                    "width": 1280,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Toogood_Maquette-234-Canvas-Foam-Sofa-Charcoal_5-Friedman-Benda.jpg?v=1693221947"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39491971285123",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Toogood_Maquette-234-Canvas-Foam-Sofa-Charcoal_4-Friedman-Benda.jpg?v=1693221947"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39491971121283",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Toogood_Maquette-234-Canvas-Foam-Sofa-Charcoal_3-Friedman-Benda.jpg?v=1693221946"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39491971219587",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Toogood_Maquette-234-Canvas-Foam-Sofa-Charcoal_2-Friedman-Benda.jpg?v=1693221947"
+                }
+            ],
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/8446917640323",
+                    "position": 1,
+                    "name": "Title",
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ],
+            "priceRange": {
+                "minVariantPrice": 38000,
+                "maxVariantPrice": 38000
+            },
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/39338999251075",
+                    "barcode": null,
+                    "inventoryManagement": "SHOPIFY",
+                    "inventoryPolicy": "DENY",
+                    "inventoryQuantity": 0,
+                    "position": 1,
+                    "price": "38000.00",
+                    "product": {
+                        "id": "gid://shopify/Product/6565875384451",
+                        "status": "active"
+                    },
+                    "selectedOptions": [
+                        {
+                            "name": "Title",
+                            "value": "Default Title"
+                        }
+                    ],
+                    "requiresShipping": true,
+                    "fulfillmentService": "manual",
+                    "sku": null,
+                    "taxable": true,
+                    "title": "Default Title",
+                    "weight": 174.63,
+                    "weightUnit": "KILOGRAMS",
+                    "createdAt": "2021-04-27T19:36:02Z",
+                    "updatedAt": "2023-08-28T11:25:43Z"
+                }
+            ],
+            "tags": [
+                "City-New York",
+                "Contemporary",
+                "fabric paint",
+                "Faye Toogood",
+                "Friedman Benda",
+                "Primed",
+                "Seating",
+                "Shop-page",
+                "upholstery foam",
+                "washed canvas"
+            ],
+            "vendor": "Friedman Benda",
+            "updatedAt": "2023-08-28T11:25:48Z",
+            "createdAt": "2021-04-27T19:36:02Z",
+            "publishedAt": null
+        },
+        {
+            "id": "gid://shopify/Product/6565875417219",
+            "title": "Boobie",
+            "handle": "jonathan-trayte-boobie",
+            "description": "An avid observer with a keen perception and eye for the obscure, Jonathan Trayte poignantly examines the ways in which we perceive and utilize natural resources. Finding the surreal in the quotidian, his playful, off-the-wall objects offer a nuanced commentary on the universal language of consumerism. Exemplary of Trayte’s tongue-in-cheek sensibility, Boobie (2021), a 2.3-meter stack of powder pink aluminum orbs, is axiomatic of Trayte’s embrace of contradictions between the organic and the artificial. Rendered from naïve forms with a pastel palette and child-like title, Boobie points to the link between the media and the sexualization of form and color. Trayte himself says, “Color is so important as a means of persuasion, persuading people to consume in particular kinds of ways, or in appealing to specific social groups. I create synthetic painted veneers and compositions of materials that either reflect or distort this language; they're like skins of paint or textures that create a kind of chameleon appearance…”. Cast Iron.",
+            "descriptionHtml": "<p>An avid observer with a keen perception and eye for the obscure, Jonathan Trayte poignantly examines the ways in which we perceive and utilize natural resources. Finding the surreal in the quotidian, his playful, off-the-wall objects offer a nuanced commentary on the universal language of consumerism.</p>\n\n<p>Exemplary of Trayte’s tongue-in-cheek sensibility, Boobie (2021), a 2.3-meter stack of powder pink aluminum orbs, is axiomatic of Trayte’s embrace of contradictions between the organic and the artificial. Rendered from naïve forms with a pastel palette and child-like title, Boobie points to the link between the media and the sexualization of form and color. Trayte himself says, “Color is so important as a means of persuasion, persuading people to consume in particular kinds of ways, or in appealing to specific social groups. I create synthetic painted veneers and compositions of materials that either reflect or distort this language; they're like skins of paint or textures that create a kind of chameleon appearance…”.</p>\n\n<p>Cast Iron.</p>",
+            "productType": "",
+            "featuredImage": {
+                "id": "gid://shopify/ProductImage/28730310656131",
+                "width": 1024,
+                "height": 1024,
+                "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman-Benda_Jonathan-Trayte_Boobie_1-Friedman-Benda-1024x1024.jpg?v=1643209537"
+            },
+            "status": "active",
+            "images": [
+                {
+                    "id": "gid://shopify/ProductImage/28730310656131",
+                    "height": 1024,
+                    "width": 1024,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman-Benda_Jonathan-Trayte_Boobie_1-Friedman-Benda-1024x1024.jpg?v=1643209537"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074459136131",
+                    "height": 2836,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman_Benda_Trayte_Boobie_1_-_Chelsey_Cohen.jpg?v=1643209537"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074468409475",
+                    "height": 2880,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Trayte_Boobie_2-ChelseyCohen.jpg?v=1643209537"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074468376707",
+                    "height": 2880,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Trayte_Boobie_3-ChelseyCohen.jpg?v=1643209537"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074468343939",
+                    "height": 2880,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Trayte_Boobie_4-ChelseyCohen.jpg?v=1643209501"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074468278403",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Trayte_Boobie_5-ChelseyCohen.jpg?v=1643209501"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074468245635",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Trayte_Boobie_6-ChelseyCohen.jpg?v=1643209501"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/28074468311171",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/FriedmanBenda_Trayte_Boobie_7-ChelseyCohen.jpg?v=1643209501"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489622343811",
+                    "height": 1920,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Jonathan-Trayte_Boobie_1-Friedman-Benda.jpg?v=1692967031"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489622376579",
+                    "height": 150,
+                    "width": 100,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Jonathan-Trayte_Boobie_2-Friedman-Benda-100x150.jpg?v=1692967032"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489622278275",
+                    "height": 150,
+                    "width": 100,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Jonathan-Trayte_Boobie_4-Friedman-Benda-100x150.jpg?v=1692967031"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489622311043",
+                    "height": 100,
+                    "width": 150,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Jonathan-Trayte_Boobie_5-Friedman-Benda-150x100.jpg?v=1692967031"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39491972006019",
+                    "height": 1920,
+                    "width": 1280,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Jonathan-Trayte_Boobie_2-Friedman-Benda.jpg?v=1693221958"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39491971973251",
+                    "height": 1920,
+                    "width": 1280,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Jonathan-Trayte_Boobie_4-Friedman-Benda.jpg?v=1693221958"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39491972071555",
+                    "height": 1280,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Jonathan-Trayte_Boobie_5-Friedman-Benda.jpg?v=1693221958"
+                }
+            ],
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/8446917673091",
+                    "position": 1,
+                    "name": "Title",
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ],
+            "priceRange": {
+                "minVariantPrice": 45000,
+                "maxVariantPrice": 45000
+            },
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/39338999283843",
+                    "barcode": null,
+                    "inventoryManagement": "SHOPIFY",
+                    "inventoryPolicy": "DENY",
+                    "inventoryQuantity": 0,
+                    "position": 1,
+                    "price": "45000.00",
+                    "product": {
+                        "id": "gid://shopify/Product/6565875417219",
+                        "status": "active"
+                    },
+                    "selectedOptions": [
+                        {
+                            "name": "Title",
+                            "value": "Default Title"
+                        }
+                    ],
+                    "requiresShipping": true,
+                    "fulfillmentService": "manual",
+                    "sku": null,
+                    "taxable": true,
+                    "title": "Default Title",
+                    "weight": 435.45,
+                    "weightUnit": "KILOGRAMS",
+                    "createdAt": "2021-04-27T19:36:04Z",
+                    "updatedAt": "2023-08-28T11:25:55Z"
+                }
+            ],
+            "tags": [
+                "acrylic paint",
+                "Cast bronze",
+                "City-New York",
+                "Contemporary",
+                "Friedman Benda",
+                "Jonathan Trayte",
+                "la vie en rose",
+                "Sculptures",
+                "Shop-page"
+            ],
+            "vendor": "Friedman Benda",
+            "updatedAt": "2023-08-28T11:25:58Z",
+            "createdAt": "2021-04-27T19:36:04Z",
+            "publishedAt": null
+        },
+        {
+            "id": "gid://shopify/Product/6721734115459",
+            "title": "RECOVERY CHAIR",
+            "handle": "samuel-ross-recovery-chair",
+            "description": "RECOVERY CHAIR by Samuel Ross. Made from: Metal, Steel,Wood",
+            "descriptionHtml": "<p>RECOVERY CHAIR by Samuel Ross.\n<br>Made from: Metal, Steel,Wood</p>",
+            "productType": "",
+            "featuredImage": {
+                "id": "gid://shopify/ProductImage/28707889184899",
+                "width": 1024,
+                "height": 1024,
+                "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman-Benda_Ross_RECOVERY_CHAIR_01-1024x1024.jpg?v=1642523485"
+            },
+            "status": "active",
+            "images": [
+                {
+                    "id": "gid://shopify/ProductImage/28707889184899",
+                    "height": 1024,
+                    "width": 1024,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman-Benda_Ross_RECOVERY_CHAIR_01-1024x1024.jpg?v=1642523485"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489623916675",
+                    "height": 1920,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Ross_RECOVERY_CHAIR_01.jpg?v=1692967110"
+                }
+            ],
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/8665571000451",
+                    "position": 1,
+                    "name": "Title",
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ],
+            "priceRange": {
+                "minVariantPrice": 50000,
+                "maxVariantPrice": 50000
+            },
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/39645639114883",
+                    "barcode": null,
+                    "inventoryManagement": "SHOPIFY",
+                    "inventoryPolicy": "DENY",
+                    "inventoryQuantity": 0,
+                    "position": 1,
+                    "price": "50000.00",
+                    "product": {
+                        "id": "gid://shopify/Product/6721734115459",
+                        "status": "active"
+                    },
+                    "selectedOptions": [
+                        {
+                            "name": "Title",
+                            "value": "Default Title"
+                        }
+                    ],
+                    "requiresShipping": true,
+                    "fulfillmentService": "manual",
+                    "sku": null,
+                    "taxable": true,
+                    "title": "Default Title",
+                    "weight": 20,
+                    "weightUnit": "KILOGRAMS",
+                    "createdAt": "2022-01-18T16:31:23Z",
+                    "updatedAt": "2023-08-28T11:27:04Z"
+                }
+            ],
+            "tags": [
+                "otw122"
+            ],
+            "vendor": "Friedman Benda",
+            "updatedAt": "2023-08-28T11:27:04Z",
+            "createdAt": "2022-01-18T16:31:23Z",
+            "publishedAt": null
+        },
+        {
+            "id": "gid://shopify/Product/6769209376899",
+            "title": "Maker Chair (Hexagon)",
+            "handle": "joris-laarman-maker-chair-hexagon",
+            "description": "Maker Chair (Hexagon) by Joris Laarman. Made from: Walnut",
+            "descriptionHtml": "<p>Maker Chair (Hexagon) by Joris Laarman.\n<br>Made from: Walnut</p>",
+            "productType": "",
+            "featuredImage": {
+                "id": "gid://shopify/ProductImage/28956322824323",
+                "width": 1024,
+                "height": 1024,
+                "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman-Benda_Laarman_Maker_Chair_Hexagon_01-1024x1024.jpg?v=1652111151"
+            },
+            "status": "active",
+            "images": [
+                {
+                    "id": "gid://shopify/ProductImage/28956322824323",
+                    "height": 1024,
+                    "width": 1024,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Friedman-Benda_Laarman_Maker_Chair_Hexagon_01-1024x1024.jpg?v=1652111151"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39489623752835",
+                    "height": 1920,
+                    "width": 1920,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Friedman-Benda_Laarman_Maker_Chair_Hexagon_01.jpg?v=1692967100"
+                }
+            ],
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/8736267010179",
+                    "position": 1,
+                    "name": "Title",
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ],
+            "priceRange": {
+                "minVariantPrice": 50000,
+                "maxVariantPrice": 50000
+            },
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/39722413785219",
+                    "barcode": null,
+                    "inventoryManagement": "SHOPIFY",
+                    "inventoryPolicy": "DENY",
+                    "inventoryQuantity": 0,
+                    "position": 1,
+                    "price": "50000.00",
+                    "product": {
+                        "id": "gid://shopify/Product/6769209376899",
+                        "status": "active"
+                    },
+                    "selectedOptions": [
+                        {
+                            "name": "Title",
+                            "value": "Default Title"
+                        }
+                    ],
+                    "requiresShipping": true,
+                    "fulfillmentService": "manual",
+                    "sku": null,
+                    "taxable": true,
+                    "title": "Default Title",
+                    "weight": 13,
+                    "weightUnit": "KILOGRAMS",
+                    "createdAt": "2022-05-09T15:45:49Z",
+                    "updatedAt": "2023-08-28T11:26:59Z"
+                }
+            ],
+            "tags": [
+                "wood10"
+            ],
+            "vendor": "Friedman Benda",
+            "updatedAt": "2023-08-28T11:27:01Z",
+            "createdAt": "2022-05-09T15:45:49Z",
+            "publishedAt": null
+        },
+        {
+            "id": "gid://shopify/Product/7879166525571",
+            "title": "The importance of water I",
+            "handle": "the-importance-of-water-1",
+            "description": "Leif Stangebye-Nielsen is a metal artist with a main emphasis on silver corpus. He is particularly concerned with the concept of form where the totality of figuration, material, space and tactility portrays the ideas. The metals’ ability to forge will witness in the works the heavy, physical process it has undergone. A dialogue between the artist and the material over time. The love of the materials, techniques and tools is used to communicate, create situations and experiences for viewers. It is not about entertaining or writing in capital letters, but about touching the individual and cultivating the human right to find peace and experience close sensual values in a hurried and chaotic society. Leif Stangebye-Nielsen has had several solo exhibitions and participated in a number of group exhibitions in Norway and internationally. He received the craft prize in 1988 and is represented in all the larger collections of handicrafts in Norway and the Victoria & Albert museum in London.",
+            "descriptionHtml": "<meta charset=\"utf-8\">\n<p>Leif Stangebye-Nielsen is a metal artist with a main emphasis on silver corpus. He is particularly concerned with the concept of form where the totality of figuration, material, space and tactility portrays the ideas. The metals’ ability to forge will witness in the works the heavy, physical process it has undergone. A dialogue between the artist and the material over time. The love of the materials, techniques and tools is used to communicate, create situations and experiences for viewers. It is not about entertaining or writing in capital letters, but about touching the individual and cultivating the human right to find peace and experience close sensual values in a hurried and chaotic society.</p>\n<p>Leif Stangebye-Nielsen has had several solo exhibitions and participated in a number of group exhibitions in Norway and internationally. He received the craft prize in 1988 and is represented in all the larger collections of handicrafts in Norway and the Victoria &amp; Albert museum in London.</p>",
+            "productType": "Ceramics",
+            "featuredImage": {
+                "id": "gid://shopify/ProductImage/38889182036099",
+                "width": 1024,
+                "height": 1024,
+                "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Leif-Stangebye-Nielsen-foto-TT-1-1.jpg?v=1680599631"
+            },
+            "status": "active",
+            "images": [
+                {
+                    "id": "gid://shopify/ProductImage/38889182036099",
+                    "height": 1024,
+                    "width": 1024,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/Leif-Stangebye-Nielsen-foto-TT-1-1.jpg?v=1680599631"
+                },
+                {
+                    "id": "gid://shopify/ProductImage/39479321264259",
+                    "height": 2250,
+                    "width": 2250,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/files/Principal-6.jpg?v=1692204620"
+                }
+            ],
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/10083255189635",
+                    "position": 1,
+                    "name": "Title",
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ],
+            "priceRange": {
+                "minVariantPrice": 5400,
+                "maxVariantPrice": 5400
+            },
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/43191624728707",
+                    "barcode": null,
+                    "inventoryManagement": "SHOPIFY",
+                    "inventoryPolicy": "DENY",
+                    "inventoryQuantity": 1,
+                    "position": 1,
+                    "price": "5400.00",
+                    "product": {
+                        "id": "gid://shopify/Product/7879166525571",
+                        "status": "active"
+                    },
+                    "selectedOptions": [
+                        {
+                            "name": "Title",
+                            "value": "Default Title"
+                        }
+                    ],
+                    "requiresShipping": true,
+                    "fulfillmentService": "manual",
+                    "sku": null,
+                    "taxable": true,
+                    "title": "Default Title",
+                    "weight": 0,
+                    "weightUnit": "POUNDS",
+                    "createdAt": "2023-04-04T09:13:49Z",
+                    "updatedAt": "2023-08-20T07:57:03Z"
+                }
+            ],
+            "tags": [],
+            "vendor": "Galleri Format Oslo",
+            "updatedAt": "2023-08-22T12:45:13Z",
+            "createdAt": "2023-04-04T09:13:49Z",
+            "publishedAt": null
+        },
+        {
+            "id": "gid://shopify/Product/7879167770755",
+            "title": "Venus in a vessel",
+            "handle": "venus-in-a-vessel",
+            "description": "Christina Peel’s work is a quest into the geometric forms, volume and structure of the material she is working with – into their interplay and relationships. She works with clay, and creates complex wall pieces which relate either to a specific framed size or to a site-specific project. “Plane #2” and “Plane #3” were featured in Peel’s recent exhibition at Format. The exhibition, titled Transitions, featured a new series of three-dimensional wall pieces in porcelain. These works are experienced as rhythmic abstract compositions where the details, being variations on a common element, make up a whole. Here the interplay between form and color can be experienced as something constant or in a state of flux, and very small movements by the viewer can modify the perception of the work.",
+            "descriptionHtml": "<meta charset=\"utf-8\"><span>Christina Peel’s work is a quest into the geometric forms, volume and structure of the material she is working with – into their interplay and relationships. She works with clay, and creates complex wall pieces which relate either to a specific framed size or to a site-specific project. “Plane #2” and “Plane #3” were featured in Peel’s recent exhibition at Format. The exhibition, titled Transitions, featured a new series of three-dimensional wall pieces in porcelain. These works are experienced as rhythmic abstract compositions where the details, being variations on a common element, make up a whole. Here the interplay between form and color can be experienced as something constant or in a state of flux, and very small movements by the viewer can modify the perception of the work.</span>",
+            "productType": "Sculptures",
+            "featuredImage": {
+                "id": "gid://shopify/ProductImage/38889256026243",
+                "width": 1024,
+                "height": 1024,
+                "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/fb237_36951afd50.jpg?v=1680601770"
+            },
+            "status": "active",
+            "images": [
+                {
+                    "id": "gid://shopify/ProductImage/38889256026243",
+                    "height": 1024,
+                    "width": 1024,
+                    "src": "https://cdn.shopify.com/s/files/1/0367/1048/2051/products/fb237_36951afd50.jpg?v=1680601766"
+                }
+            ],
+            "options": [
+                {
+                    "id": "gid://shopify/ProductOption/10083257778307",
+                    "position": 1,
+                    "name": "Title",
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ],
+            "priceRange": {},
+            "variants": [
+                {
+                    "id": "gid://shopify/ProductVariant/43191630823555",
+                    "barcode": "",
+                    "inventoryManagement": "SHOPIFY",
+                    "inventoryPolicy": "DENY",
+                    "inventoryQuantity": 1,
+                    "position": 1,
+                    "price": "0.00",
+                    "product": {
+                        "id": "gid://shopify/Product/7879167770755",
+                        "status": "active"
+                    },
+                    "selectedOptions": [
+                        {
+                            "name": "Title",
+                            "value": "Default Title"
+                        }
+                    ],
+                    "requiresShipping": true,
+                    "fulfillmentService": "manual",
+                    "sku": "",
+                    "taxable": true,
+                    "title": "Default Title",
+                    "weight": 0,
+                    "weightUnit": "POUNDS",
+                    "createdAt": "2023-04-04T09:47:44Z",
+                    "updatedAt": "2023-04-04T09:48:45Z"
+                }
+            ],
+            "tags": [],
+            "vendor": "Galleri Format Oslo",
+            "updatedAt": "2023-08-22T12:45:13Z",
+            "createdAt": "2023-04-04T09:47:44Z",
+            "publishedAt": null
+        }
+    ],
+    "collections": []
+}
