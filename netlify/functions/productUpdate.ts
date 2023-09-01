@@ -27,6 +27,7 @@ export async function handleProductUpdate(
     status,
     priceRange
   } = product
+  console.log("🚀 ~ file: productUpdate.ts:30 ~ product:", product)
 
   const variants = product.variants || []
   const firstImage = images?.[0]
@@ -34,7 +35,7 @@ export async function handleProductUpdate(
 
   const productVariantsDocuments = variants.map<ShopifyDocumentProductVariant>((variant) => {
     const variantId = idFromGid(variant.id)
-    return ({
+    const variantData = {
       _id: buildProductVariantDocumentId(variantId),
       _type: SHOPIFY_PRODUCT_VARIANT_DOCUMENT_TYPE,
       store: {
@@ -60,7 +61,16 @@ export async function handleProductUpdate(
           isAvailable: variant.inventoryQuantity !== null && variant.inventoryQuantity > 0
         }
       }
-    })
+    }
+
+    delete variantData.store.barcode;
+    delete variantData.store.fulfillmentService;
+    delete variantData.store.inventoryManagement;
+    delete variantData.store.position;
+    delete variantData.store.product;
+    delete variantData.store.selectedOptions;
+
+    return variantData
   })
 
   productVariantsDocuments.map(async(variant) => {
@@ -129,6 +139,7 @@ export async function handleProductUpdate(
         current: handle,
       },
       options,
+      tags: JSON.stringify(product.tags),
       
       variants: productVariantsDocuments.map((variant) => {
         return {
@@ -157,7 +168,13 @@ export async function handleProductUpdate(
     }
   }) || []
 
-  productDocument.store.metafields= metafields,
+  productDocument.store.metafields= metafields
+
+  delete productDocument.store.description
+  delete productDocument.store.featuredImage
+  delete productDocument.store.handle
+  delete productDocument.store.images
+  delete productDocument.store.publishedAt
 
   await commitProductDocuments(client, productDocument, productVariantsDocuments)
 
