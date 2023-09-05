@@ -27,7 +27,6 @@ export async function handleProductUpdate(
     status,
     priceRange
   } = product
-  console.log("🚀 ~ file: productUpdate.ts:30 ~ product:", product)
 
   const variants = product.variants || []
   const firstImage = images?.[0]
@@ -84,11 +83,15 @@ export async function handleProductUpdate(
       if (metafield.key==='color') {
         variant.store[metafield?.key] = JSON.parse(metafield?.value)
       }
+
+      const value = JSON.parse(metafield.value)
+      console.log("🚀 ~ file: productUpdate.ts:89 ~ metafields ~ value:", value)
       return {
         _type: 'metafield',
         _key: metafield.id,
         key: metafield.key,
-        value: metafield.value,
+        value: JSON.stringify(value?.value),
+        unit: JSON.stringify(value?.unit),
         description: metafield.description,
         type: metafield.type,
         namespace: metafield.namespace,
