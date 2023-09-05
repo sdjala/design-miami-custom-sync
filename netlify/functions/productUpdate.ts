@@ -139,7 +139,7 @@ export async function handleProductUpdate(
         current: handle,
       },
       options,
-      tags: JSON.stringify(product.tags).replace(/[\[\]']+/g,''),
+      tags: JSON.parse(JSON.stringify(product.tags).replace(/[\[\]']+/g,'')),
       
       variants: productVariantsDocuments.map((variant) => {
         return {
