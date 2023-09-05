@@ -117,7 +117,7 @@ export async function handleProductUpdate(
   }
   const data = await getMetafields()
 
- 
+ const tags = JSON.stringify(product.tags)?.replace(/[^a-zA-Z ,]/g, '')
 
   // We assign _key values of product option name and values since they're guaranteed unique in Shopify
   const productDocument: ShopifyDocumentProduct = {
@@ -139,7 +139,7 @@ export async function handleProductUpdate(
         current: handle,
       },
       options,
-      tags: JSON.parse(JSON.stringify(product.tags).replace(/[\[\]']+/g,'')),
+      tags: tags,
       
       variants: productVariantsDocuments.map((variant) => {
         return {
@@ -157,11 +157,13 @@ export async function handleProductUpdate(
     if (['heritage', 'material', 'style', 'color'].includes(metafield.key)) {
       productDocument.store[metafield.key] = JSON.parse(metafield.value)
     }
+
+    const value = JSON.stringify(metafield?.value)?.replace(/[^a-zA-Z ,]/g, '')
     return {
       _type: 'metafield',
       _key: metafield.id,
       key: metafield.key,
-      value: JSON.stringify(metafield.value),
+      value: value,
       description: metafield.description,
       type: metafield.type,
       namespace: metafield.namespace,
