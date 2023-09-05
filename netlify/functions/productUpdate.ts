@@ -161,7 +161,7 @@ export async function handleProductUpdate(
       _type: 'metafield',
       _key: metafield.id,
       key: metafield.key,
-      value: metafield.value,
+      value: JSON.stringify(metafield.value),
       description: metafield.description,
       type: metafield.type,
       namespace: metafield.namespace,
