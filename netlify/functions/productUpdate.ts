@@ -161,7 +161,7 @@ export async function handleProductUpdate(
       productDocument.store[metafield.key] = JSON.parse(metafield.value)
     }
 
-    const value = JSON.stringify(metafield?.value)?.replace(/[^a-zA-Z ,]/g, '')
+    const value = JSON.stringify(metafield?.value)?.replace(/[^a-zA-Z0-9 ,]/g, '')
     return {
       _type: 'metafield',
       _key: metafield.id,
