@@ -71,19 +71,20 @@ export async function handleProductUpdate(
 
     return variantData
   })
+  console.log("🚀 ~ file: productUpdate.ts:103 ~ productVariantsDocuments.map ~ productVariantsDocuments:", productVariantsDocuments)
 
-  productVariantsDocuments.map(async(variant) => {
+  productVariantsDocuments?.map(async(variant) => {
       const res = await axios.get(`https://design-miami.myshopify.com/admin/api/2023-04/products/${shopifyProductId}/variants/${variant?.store?.id}/metafields.json`, {
       headers:{
         'X-Shopify-Access-Token':  process.env.SHOPIFY_TOKEN
       }
     })
+    console.log("🚀 ~ file: productUpdate.ts:78 ~ productVariantsDocuments.map ~ res:", res.data)
 
      const metafields = res.data.metafields?.map((metafield) => {
       if (metafield.key === 'color') {
         variant.store[metafield?.key] = JSON.parse(metafield?.value)
       }
-      console.log("🚀 ~ file: productUpdate.ts:100 ~ metafields ~ metafields:", metafields)
 
       const value = metafield.value ? JSON.parse(metafield.value) : '';
       console.log("🚀 ~ file: productUpdate.ts:89 ~ metafields ~ value:", value)
