@@ -85,7 +85,7 @@ export async function handleProductUpdate(
       }
       console.log("🚀 ~ file: productUpdate.ts:100 ~ metafields ~ metafields:", metafields)
 
-      const value = metafield.value ? JSON.parse(metafield.value) || ''
+      const value = metafield.value ? JSON.parse(metafield.value) : '';
       console.log("🚀 ~ file: productUpdate.ts:89 ~ metafields ~ value:", value)
       return {
         _type: 'metafield',
