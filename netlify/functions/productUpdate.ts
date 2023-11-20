@@ -80,11 +80,12 @@ export async function handleProductUpdate(
     })
 
      const metafields = res.data.metafields?.map((metafield) => {
-      if (metafield.key==='color') {
+      if (metafield.key === 'color') {
         variant.store[metafield?.key] = JSON.parse(metafield?.value)
       }
+      console.log("🚀 ~ file: productUpdate.ts:100 ~ metafields ~ metafields:", metafields)
 
-      const value = JSON.parse(metafield.value)
+      const value = metafield.value ? JSON.parse(metafield.value) || ''
       console.log("🚀 ~ file: productUpdate.ts:89 ~ metafields ~ value:", value)
       return {
         _type: 'metafield',
