@@ -86,7 +86,7 @@ export async function handleProductUpdate(
         variant.store[metafield?.key] = JSON.parse(metafield?.value)
       }
 
-      const value = metafield.value ? JSON.parse(metafield.value) : '';
+      const value = metafield.value && (metafield.value.includes('[') ||   metafield.value.includes('{')) ? JSON.parse(metafield.value) : metafield.value;
       console.log("🚀 ~ file: productUpdate.ts:89 ~ metafields ~ value:", value)
       return {
         _type: 'metafield',
