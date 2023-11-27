@@ -41,7 +41,7 @@ const handler: Handler = async function(event) {
     body: JSON.stringify({
       from: requestBody.from,
       to: requestBody.to,
-      subject: "Design Miami Exhibitor Inquire",
+      subject: "Design Miami/ Exhibitor Inquiry",
       parameters: {
         galleryName: requestBody.galleryName,
         specialty: requestBody.specialty,

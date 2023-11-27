@@ -39,7 +39,7 @@ const handler: Handler = async function(event) {
     body: JSON.stringify({
       from: requestBody.from,
       to: requestBody.to,
-      subject: "Design Miami Vip Inquire",
+      subject: " Design Miami/ VIP Inquiry",
       parameters: {
         firstName: requestBody.firstName,
         lastName: requestBody.lastName,
