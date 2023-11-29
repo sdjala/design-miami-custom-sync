@@ -19,7 +19,10 @@ const handler: Handler = async function(event) {
     gallery: string;
     designer: string;
     product: string;
+    productUrl: string;
+    handle: string;
     to: string;
+    cc: string;
     from: string;
   };
 
@@ -33,7 +36,8 @@ const handler: Handler = async function(event) {
     body: JSON.stringify({
       from: requestBody.from,
       to: requestBody.to,
-      subject: "Design Miami Inquire",
+      cc: requestBody.cc,
+      subject: "Design Miami/ Product Inquiry",
       parameters: {
         firstName: requestBody.firstName,
         lastName: requestBody.lastName,
@@ -44,6 +48,8 @@ const handler: Handler = async function(event) {
         gallery: requestBody.gallery,
         designer: requestBody.designer,
         product: requestBody.product,
+        productUrl: requestBody.productUrl,
+        handle: `https://designmiami.com/products/${requestBody.handle}`,
       },
     }),
   });

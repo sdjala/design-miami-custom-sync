@@ -1,12 +1,47 @@
 <html>
-  <body>
-    <h1>Inquired by: {{firstName}} {{lastName}}</h1>
-    <p>Phone: {{phone}}</p>
-    <p>Email: {{email}}</p>
-    <p>Assist: {{assist}}</p>
-    <p>Subscribe: {{subscribe}}</p>
-    <p>Gallery: {{gallery}}</p>
-    <p>Designer: {{designer}}</p>
-    <p>Product: {{product}}</p>
+  <body style="font-family: Arial, Helvetica, sans-serif;">
+    <h2 style="color: black; font-family: Helvetica; font-size: 14px; font-style: normal; font-weight: 700; line-height: 14px; margin-bottom: 24px;">
+      Please review this Product Inquiry at your earliest convenience.
+    </h2>
+
+    <p style="color: rgba(0, 0, 0, 0.50); font-family: Helvetica Neue; font-size: 12px; font-style: normal; font-weight: 400; line-height: 12px;">
+      Gallery Name: <span style="color: black;">{{gallery}}</span>
+    </p>
+    <p style="color: rgba(0, 0, 0, 0.50); font-family: Helvetica Neue; font-size: 12px; font-style: normal; font-weight: 400; line-height: 12px;">
+      Designer Name: <span style="color: black;">{{designer}}</span>
+    </p>
+    <p style="color: rgba(0, 0, 0, 0.50); font-family: Helvetica Neue; font-size: 12px; font-style: normal; font-weight: 400; line-height: 12px;">
+      Product Title, Date: <span><a href={{{handle}}}>{{product}}</a></span>
+    </p>
+
+    <img style="width: 160px; height: 160px;" src={{{productUrl}}}>
+
+    <h3 style="margin-top: 20px; margin-bottom: 16px; color: #000; font-family: Helvetica; font-size: 12px; font-style: normal; font-weight: 700;  line-height: 12px;">
+      Help us understand your preferences:
+    </h3>
+    <p style="color: rgba(0, 0, 0, 0.50); font-family: Helvetica Neue; font-size: 12px; font-style: normal; font-weight: 400; line-height: 12px;">
+      First Name: <span style="color: black;">{{firstName}}</span>
+    </p>
+    <p style="color: rgba(0, 0, 0, 0.50); font-family: Helvetica Neue; font-size: 12px; font-style: normal; font-weight: 400; line-height: 12px;">
+      Last Name: <span style="color: black;">{{lastName}}</span>
+    </p>
+    <p style="color: rgba(0, 0, 0, 0.50); font-family: Helvetica Neue; font-size: 12px; font-style: normal; font-weight: 400; line-height: 12px;">
+      Email: <span style="color: black;">{{email}}</span>
+    </p>
+    <p style="color: rgba(0, 0, 0, 0.50); font-family: Helvetica Neue; font-size: 12px; font-style: normal; font-weight: 400; line-height: 12px;">
+      Email: <span style="color: black;">{{phone}}</span>
+    </p>
+
+    <p style="margin-top: 20px; color: rgba(0, 0, 0, 0.50); font-family: Helvetica Neue; font-size: 12px; font-style: normal; font-weight: 400; line-height: 12px;">
+      How can we assist you: 
+    </p>
+    <p style="color: #000; font-family: Helvetica Neue; font-size: 12px; font-style: normal; font-weight: 400; line-height: 16.8px;">
+      {{assist}}
+    </p>
+
+    <p style="margin-top: 32px; color: #000; font-family: Helvetica Neue; font-size: 12px; font-style: normal; font-weight: 400; line-height: 12px;">
+      Thank you very much!
+    </p>
+    <img style="margin-top: 56px;" src="http://drive.google.com/uc?export=view&id=1f-lBKsaduaClGlcJw8EyZHS7_7FMONNG">
   </body>
 </html>
