@@ -26,6 +26,7 @@ const handler: Handler = async function(event) {
     agerange: string;
     residences: string;
     to: string;
+    cc: string;
     from: string;
   };
 
@@ -39,6 +40,7 @@ const handler: Handler = async function(event) {
     body: JSON.stringify({
       from: requestBody.from,
       to: requestBody.to,
+      cc: requestBody.cc,
       subject: " Design Miami/ VIP Inquiry",
       parameters: {
         firstName: requestBody.firstName,
