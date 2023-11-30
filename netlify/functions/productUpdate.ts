@@ -159,12 +159,17 @@ export async function handleProductUpdate(
 
   const metafields: ShopifyDocumentProduct['store']['metafields'] =
   data?.map((metafield) => {
-    console.log("🚀 ~ file: productUpdate.ts:162 ~ data?.map ~ metafield:", metafield)
     if (['heritage', 'material', 'style', 'color'].includes(metafield.key)) {
       productDocument.store[metafield.key] = JSON.parse(metafield.value)
     }
 
-    const value = JSON.stringify(metafield?.value)?.replace(/[^a-zA-Z0-9 ,:/]/g, '')
+    let value = ''
+    if (metafield.key === 'transactionURL') {
+      value = JSON.stringify(metafield?.value)?.replace(/[^a-zA-Z0-9 ,:/.]/g, '')
+    } else {
+
+      value = JSON.stringify(metafield?.value)?.replace(/[^a-zA-Z0-9 ,]/g, '')
+    }
     return {
       _type: 'metafield',
       _key: metafield.id,
