@@ -165,7 +165,7 @@ export async function handleProductUpdate(
 
     let value = ''
     if (metafield.key === 'transactionURL') {
-      value = JSON.stringify(metafield?.value)?.replace(/[^a-zA-Z0-9 ,:/.]/g, '')
+      value = JSON.stringify(metafield?.value)?.replace(/[^a-zA-Z0-9 ,=-:/.]/g, '')
     } else {
 
       value = JSON.stringify(metafield?.value)?.replace(/[^a-zA-Z0-9 ,]/g, '')
