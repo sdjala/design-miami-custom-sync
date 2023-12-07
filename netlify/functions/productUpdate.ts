@@ -83,7 +83,7 @@ export async function handleProductUpdate(
 
      const metafields = res.data.metafields?.map((metafield) => {
       if (metafield.key === 'color') {
-        variant.store[metafield?.key] = JSON.parse(metafield?.value)?.replace(/[^a-zA-Z0-9 ,"]/g, '')
+        variant.store[metafield?.key] = metafield?.value?.replace(/[^a-zA-Z0-9 ,"]/g, '')
       }
 
       const value = metafield.value && typeof metafield.value !== 'boolean'&& typeof metafield.value !== 'number' && (metafield.value.includes('[') || metafield.value.includes('{')) ? JSON.parse(metafield.value) : metafield.value;
